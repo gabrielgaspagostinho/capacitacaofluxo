@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex flex-col w-full">
 
             {/* banner*/}
-            <section className="relative h-[65vh] w-full flex items-center justify-center overflow-hidden">
+            <section className="relative h-[85vh] md:h-[65vh] w-full flex items-center justify-center overflow-hidden">
 
                 {/* Imagem de Fundo */}
                 <div className="absolute inset-0 z-0">
@@ -32,7 +32,7 @@ export default function Home() {
                 </div>
 
                 {/* Texto Centralizado sobre a imagem */}
-                <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
+                <div className="relative z-10 text-center text-white pt-2 md:pt-0 px-4 max-w-4xl mx-auto space-y-6 animate-in fade-in slide-in-from-bottom-8 duration-1000">
                     <span className="uppercase tracking-[0.3em] text-sm md:text-base font-medium text-white/80">
                         Artesanal • Estético • Delicioso
                     </span>
@@ -49,13 +49,13 @@ export default function Home() {
                     <div className="pt-8 flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
                             href="/doces"
-                            className="bg-white text-mocha px-10 py-4 rounded-full font-bold hover:bg-dusty-rose hover:text-white transition-all duration-300 transform hover:scale-105 shadow-xl"
+                            className="bg-white text-mocha px-6 md:px-10 py-4 rounded-full font-bold hover:bg-dusty-rose hover:text-white transition-all duration-300 transform hover:scale-105 shadow-xl"
                         >
                             Ver Cardápio
                         </Link>
                         <Link
                             href="/bebidas"
-                            className="px-10 py-4 rounded-full font-bold text-white border border-white/40 backdrop-blur-sm hover:bg-white/10 transition-all duration-300"
+                            className="px-6 md:px-10 py-4 rounded-full font-bold text-white border border-white/40 backdrop-blur-sm hover:bg-white/10 transition-all duration-300"
                         >
                             Nossas Bebidas
                         </Link>
