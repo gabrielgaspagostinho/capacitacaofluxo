@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex flex-col w-full">
 
             {/* banner*/}
-            <section className="relative h-[85vh] md:h-[65vh] w-full flex items-center justify-center overflow-hidden">
+            <section className="relative h-[85vh] lg:h-[65vh] w-full flex items-center justify-center overflow-hidden">
 
                 {/* Imagem de Fundo */}
                 <div className="absolute inset-0 z-0">
