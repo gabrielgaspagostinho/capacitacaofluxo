@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    /* Definindo nossa paleta Clean Girl */
+    --color-clean-cream: rgb(243, 240, 233);
+    --color-dusty-rose: #D48C98;
+    --color-mocha: #4A403A;
+    --color-soft-white: #FDFBF7;
+}
+
+
+body {
+    background-color: var(--color-clean-cream);
+    color: var(--color-mocha);
+    font-family: var(--font-inter), sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
