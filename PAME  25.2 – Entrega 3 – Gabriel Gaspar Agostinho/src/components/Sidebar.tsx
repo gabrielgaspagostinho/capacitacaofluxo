@@ -48,7 +48,6 @@ export default function Sidebar() {
                         Bebidas
                     </Link>
                 </nav>
-                {/* 3. Rodapé da Sidebar */}
                 <div className="p-8 text-center text-xs text-mocha/50">
                     <p>© 2026 Clean Girl</p>
                 </div>
@@ -91,4 +90,5 @@ export default function Sidebar() {
             </div>
         </div >
     );
+
 }
